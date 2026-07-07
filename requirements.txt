@@ -6,6 +6,4 @@ sentence-transformers
 faiss-cpu
 plotly
 matplotlib
-huggingface-hub
-torch
-transformers
+rank-bm25

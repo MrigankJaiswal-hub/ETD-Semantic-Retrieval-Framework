@@ -7,8 +7,8 @@ from src.analytics import (
     render_semantic_embedding_visualization,
 )
 from src.evaluation import render_ir_evaluation_dashboard
-from sentence_transformers import SentenceTransformer
-model = SentenceTransformer("all-MiniLM-L6-v2")
+
+
 
 st.set_page_config(
     page_title="ETD Semantic Discovery",
