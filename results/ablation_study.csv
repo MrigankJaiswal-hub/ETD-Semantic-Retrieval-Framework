@@ -1,0 +1,25 @@
+variant,query,precision_at_5,recall_at_5,map_at_5,ndcg_at_5,retrieved_count,query_latency_ms,summary_enabled,explainability_enabled,metadata_filtering,threshold
+Semantic only,AI in healthcare,1.0,0.125,1.0,1.0,10,4.89,False,False,False,0.0
+Semantic only,wireless communication,1.0,0.29411764705882354,1.0,1.0,10,4.5,False,False,False,0.0
+Semantic only,digital libraries,1.0,0.08333333333333333,1.0,1.0,10,5.18,False,False,False,0.0
+Semantic only,renewable energy storage,1.0,0.625,1.0,1.0,10,4.23,False,False,False,0.0
+Semantic only,OCR for scanned theses,0.2,0.1111111111111111,1.0,0.3391602052736161,10,4.53,False,False,False,0.0
+Semantic only,semantic search,1.0,0.10416666666666667,1.0,1.0,10,4.08,False,False,False,0.0
+Semantic + metadata filtering,AI in healthcare,0.8,0.1,0.95,0.8539316501572937,10,4.07,False,False,True,0.0
+Semantic + metadata filtering,wireless communication,0.2,0.058823529411764705,0.25,0.14606834984270645,10,4.61,False,False,True,0.0
+Semantic + metadata filtering,digital libraries,0.6,0.05,1.0,0.7227265726449519,10,4.78,False,False,True,0.0
+Semantic + metadata filtering,renewable energy storage,0.0,0.0,0.0,0.0,10,5.42,False,False,True,0.0
+Semantic + metadata filtering,OCR for scanned theses,0.2,0.1111111111111111,1.0,0.3391602052736161,10,4.48,False,False,True,0.0
+Semantic + metadata filtering,semantic search,1.0,0.10416666666666667,1.0,1.0,10,5.11,False,False,True,0.0
+Semantic + threshold filtering,AI in healthcare,1.0,0.125,1.0,1.0,7,5.54,False,False,False,0.3
+Semantic + threshold filtering,wireless communication,1.0,0.29411764705882354,1.0,1.0,5,5.71,False,False,False,0.3
+Semantic + threshold filtering,digital libraries,1.0,0.08333333333333333,1.0,1.0,10,5.02,False,False,False,0.3
+Semantic + threshold filtering,renewable energy storage,1.0,0.625,1.0,1.0,5,6.84,False,False,False,0.3
+Semantic + threshold filtering,OCR for scanned theses,0.3333333333333333,0.1111111111111111,1.0,0.3391602052736161,3,6.47,False,False,False,0.3
+Semantic + threshold filtering,semantic search,1.0,0.10416666666666667,1.0,1.0,10,5.3,False,False,False,0.3
+Full framework,AI in healthcare,1.0,0.125,1.0,1.0,10,5.08,True,True,False,0.0
+Full framework,wireless communication,1.0,0.29411764705882354,1.0,1.0,10,4.37,True,True,False,0.0
+Full framework,digital libraries,1.0,0.08333333333333333,1.0,1.0,10,3.95,True,True,False,0.0
+Full framework,renewable energy storage,1.0,0.625,1.0,1.0,10,4.0,True,True,False,0.0
+Full framework,OCR for scanned theses,0.2,0.1111111111111111,1.0,0.3391602052736161,10,3.95,True,True,False,0.0
+Full framework,semantic search,1.0,0.10416666666666667,1.0,1.0,10,3.88,True,True,False,0.0
