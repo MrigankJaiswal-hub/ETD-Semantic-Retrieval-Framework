@@ -175,7 +175,7 @@ streamlit run app.py
 
 Streamlit Deployment
 
-> https://YOUR-STREAMLIT-LINK.streamlit.app
+> https://etd-semantic-retrieval-framework.streamlit.app 
 
 ---
 
